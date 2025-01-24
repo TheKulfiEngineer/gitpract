@@ -21,7 +21,7 @@ public class SimpleAlert {
 		alert.accept();
 		
 		
-		driver.close();
+		
 	}
 
 }
