@@ -16,7 +16,7 @@ public class ConfirmAlert {
 		driver.findElement(By.id("menuform:m_overlay")).click();
 		posRes();
 		negRes();
-		
+		driver.close();
 	}
 		public static void posRes() throws InterruptedException {
 		driver.findElement(By.id("j_idt88:j_idt93")).click();
